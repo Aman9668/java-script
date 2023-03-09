@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H2>HEELO FRIEND</H2>
+    <h1 id="demo"></h1>
+    <button type="button" onclick="document.getElementById('demo').innerhtml=hello? my name is het shah">click me</button>
+</body>
+</html>

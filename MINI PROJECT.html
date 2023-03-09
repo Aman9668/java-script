@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            function myFunction(){
+                document.getElementById("demo").innerHTML=" customer :- ok sir why not shoure"
+            }
+        </script>
+    </head>
+<body>
+<!----5--->
+    <!--javascript using body-->
+    <h3> shopkeeper :- hello sir</h3>
+    <p id="h1"></p>
+    <script>
+         document.getElementById("h1").innerHTML = " customer :- hello i have one bullb";
+    </script>
+
+     <!--Internal JS Of Head-->
+ <h3>  shopkeeper   :-  ok sir. i give you one bullb. wait for some few minute sir</h3>
+ <p id="demo"></p>
+ <button type="button" onclick="myFunction()">show ans!</button>
+<!---1--->
+<h3> shopkeeper :-  sir you have check the bulbb</h3>
+
+<p id="HET"></p>
+
+<button type="button" onclick='document.getElementById("HET").innerHTML = " customer :- ya why not shoure" '>show ans</button>
+<!--2------>
+<h2>LIGHT ON & OFF KERNE KE LIYE BUTTON DABAYE&#128514</h2>
+    <button onclick="document.getElementById('ab').src='animated-light-bulb-image-0022.gif'">LIGHT ON &#128514</button>
+<img id="ab" src="Picture1_js_intt.png" style="width:100px">
+
+<button onclick="document.getElementById('ab').src='Picture1_js_intt.png'">LIGHT OFF &#128514</button>
+<!--3--->
+<h2> shopkeeper :- ok sir?</h2>
+
+<p id="het"> customer :-     ya it's ok</p>
+
+<button type="button" onclick="document.getElementById('het').style.fontSize='35px'">show ans</button>
+<!----4--->
+<h3> shopkeeper :-  sir aur kuch ?</h3>
+
+<p id="het"> customer:- no thank you sir?.</p>
+
+<button type="button" onclick="document.getElementById('het').style.display='none'">Click Me!</button> 
+
+<!----6--->
+
+<p>customer :- how much this bhullb</p>
+  <h5> shopkeeper :- sir iske 2 price hai </h5>
+  <ul>
+    <li id="12ka"></li>
+    <li id="h5"></li>
+</ul>
+    <script>
+        document.getElementById("12ka").innerHTML = 5 * 5;
+        document.getElementById("h5").innerHTML = 6 * 6;
+        alert("MINI PROJECT DEKHNE KE LIYE NICHE DIYE GAYE OK BUTTON PE CLICK KI JIYE ");
+    </script>
+<!----7--->
+<h2>OK</h2>
+    <p> customer :- i got this  bullb</p>
+    <h3>  shopkeeper :- ok sir </h3>
+    
+
+    <p id="12ka"></p>
+    <p id="h5"></p>
+    <script>
+        document.getElementById("12ka").innerHTML = 5 * 5;
+        document.getElementById("h5").innerHTML = 6 * 6;
+    </script>
+</body>
+</html>
